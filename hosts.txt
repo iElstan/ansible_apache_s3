@@ -1,0 +1,10 @@
+[AMAZON_LINUX]
+instance_amazon_linux 		ansible_host=54.209.226.181	ansible_user=ec2-user
+
+[UBUNTU]
+instance_ubuntu 		ansible_host=34.203.222.29	ansible_user=ubuntu
+
+
+[SERVERS:children]
+AMAZON_LINUX
+UBUNTU

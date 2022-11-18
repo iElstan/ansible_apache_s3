@@ -1,0 +1,4 @@
+---
+
+ansible_ssh_privat_key : /home/roman/.ssh/id_rsa
+TEST                   : test
